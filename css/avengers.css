@@ -1,0 +1,327 @@
+.ironman{
+    
+    background-color: brown;
+    display: flex;
+    justify-content: space-evenly;
+}
+ div img{
+    width: 350px;
+    height: 350px;
+    background-color: brown;
+    height: auto;
+    
+ }
+  .starck  h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    color: beige;
+ }
+ .starck p {
+    font-size: 25px;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;
+ }
+
+
+
+.captain{
+    
+    background-color: rgb(57, 109, 221);
+    display: flex;
+    justify-content: space-evenly;
+}
+ .steve img{
+    width: 350px;
+    height: 350px;
+    background-color: brown;
+    height: auto;
+    
+ }
+  .rogers  h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    color: beige;
+ }
+ .rogers p {
+    font-size: 25px;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;
+ }
+
+
+ 
+ .thor{
+    
+    background-color: rgb(124, 126, 133);
+    display: flex;
+    justify-content: space-evenly;
+}
+ .asguard img{
+    width: 350px;
+    height: 350px;
+    background-color: brown;
+    height: auto;
+    
+ }
+  .thunder h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    color: beige;
+ }
+ .thunder p {
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;
+ }
+
+
+
+ .hulk{
+    
+    background-color: rgb(12, 99, 26);
+    display: flex;
+    justify-content: space-evenly;
+}
+ .bruce img{
+    width: 350px;
+    height: 350px;
+    background-color: brown;
+    height: auto;
+    
+ }
+  .banaer h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    color: beige;
+ }
+ .banaer p {
+    font-size: 25px;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;
+ }
+
+
+ 
+  .strange{
+    
+    background-color: rgb(36, 41, 92);
+    display: flex;
+    justify-content: space-evenly;
+}
+ .dr img{
+    width: 350px;
+    height: 350px;
+    background-color: brown;
+    height: auto;
+    
+ }
+  .stephen h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    color: beige;
+ }
+ .stephen p {
+    font-size: 25px;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;
+ }
+
+
+
+
+ .spider{
+    
+    background-color: rgb(136, 13, 23);
+    display: flex;
+    justify-content: space-evenly;
+}
+ .peter img{
+    width: 350px;
+    height: 350px;
+  
+    height: auto;
+    
+ }
+  .parker h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    color: beige;
+ }
+ .parker p {
+    font-size: 25px;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;
+ }
+
+ .head h1 {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-weight: bold;
+    
+ }
+
+ .head a{
+   
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+ }
+
+
+ .end {
+     background-color: rgb(153, 11, 11);
+     color: white;
+     display: flex;
+     justify-content: space-between ;
+     align-items: center;
+     margin-top: 100px;
+}
+
+.end img{
+    width: 80px;
+    margin-left: 200px;
+
+}
+.end a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.end a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.end h4:hover{
+    background-color: aliceblue;
+    color: black;
+    padding: 8px;
+}
+
+.end p:hover{
+    background-color: aliceblue;
+    color: black;
+    padding: 8px;
+}
+
+
+
+@media(max-width: 390px) {
+  body {
+   font-size: 12px;
+   margin: 0;
+   padding: 0;
+  }
+
+  .head{
+   width: 580px;
+   margin-left: 10px;
+  }
+
+  .ironman{
+   width: 600px;
+  }
+  .ironman img{
+   width: 200px;
+  }
+  .ironman  p{
+   font-size: 12px;
+  }
+
+    .ironman h1{
+   font-size: 12px;
+  }
+
+  .captain{
+   width: 600px;
+  }
+  .captain img{
+   width: 200px;
+  }
+  .captain  p{
+   font-size: 12px;
+  }
+
+    .captain h1{
+   font-size: 12px;
+  }
+
+  .thor{
+   width: 600px;
+  }
+  .thor img{
+   width: 200px;
+  }
+  .thor  p{
+   font-size: 12px;
+  }
+
+    .thor h1{
+   font-size: 12px;
+  }
+
+  .hulk{
+   width: 600px;
+  }
+  .hulk img{
+   width: 200px;
+  }
+  .hulk  p{
+   font-size: 12px;
+  }
+
+    .hulk h1{
+   font-size: 12px;
+  }
+
+  .strange{
+   width: 600px;
+  }
+  .strange img{
+   width: 200px;
+  }
+  .strange  p{
+   font-size: 12px;
+  }
+
+    .strange h1{
+   font-size: 12px;
+  }
+
+  .spider{
+   width: 600px;
+  }
+  .spider img{
+   width: 200px;
+  }
+  .spider  p{
+   font-size: 12px;
+  }
+
+    .spider h1{
+   font-size: 12px;
+  }
+   .end{
+    width: 600px;
+   }
+}

@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>Login</title>
+     
+
+        <style>
+       .bodyy{
+        background-color: rgb(31, 88, 71);
+        background-image: url(https://gilmouradventures.com/wp-content/uploads/2021/08/mcu-endgame-main-1200x800.jpg) ;
+       }
+       .form{
+        width: 300px;
+        height: 350px;
+        border: 1px solid white;
+        border-radius:20px;
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+       position: relative;
+       top: 100px;
+       left: 500px;
+       color: black;
+       background-color:#fff;
+       opacity: 0.6;
+       box-shadow: 5px 10px 7px 10px black ;
+       }
+
+       .form input{
+        border-radius: 20px;
+        width: 250px;
+        padding: 10px;
+       }
+
+       @media(max-width:390px){
+        .form{
+         padding-left: 50px;
+        }
+       }
+
+        </style>
+
+
+    </head>
+    <body class="bodyy"> 
+
+        <main class="login">
+         
+            <div class="form">
+                 <h1 style="color: rgb(0, 0, 0);
+                 font-weight: bolder;">LOGIN PAGE</h1>
+                <form action="POST" class="inform">
+                    <label for="username">User name</label><br>
+                    <input type="text" placeholder="mail id"required><br><br>
+ 
+                    <label for="password">Password</label><br>
+                    <input type="password" placeholder="Password" required>
+                    <br>
+                    <small><a href="#" style="color: white;">Forgt Password</a></small>
+                   <br><br>
+
+                    <input type="submit" value="Login">
+                </form>
+            </div>
+        </main>
+       
+    </body>
+</html>
