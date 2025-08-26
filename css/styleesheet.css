@@ -543,7 +543,7 @@ body{
     box-shadow:black;
 }
 
-@media(max-width:390px){
+@media(max-width:297px){
    body{
     font-size: 16px;
     height: 100vh;
